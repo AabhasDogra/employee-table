@@ -32,14 +32,11 @@ int main()
         //Salary
         printf("Salary: ");
         scanf("%lf",&employees[i].salary);
-
         //to consume extra '\n' input
         char ch = getchar();
- 
         printf("\n");
     }
- 
-    //Displaying Employee details
+   //Displaying Employee details
     printf("-------------- All Employees Details ---------------\n");
     for(int i=0; i<n; i++){
         printf("Name \t: ");
@@ -50,6 +47,5 @@ int main()
  
         printf("Salary \t: ");
         printf("%.2lf \n",employees[i].salary);
- 
-        printf("\n");
+   printf("\n");
     }return 0;}
