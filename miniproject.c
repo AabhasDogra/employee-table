@@ -10,7 +10,8 @@ typedef struct{
 int main()
 {
     //number of employees
-    int n=2;
+    int n;
+ scanf("%d",&n);
 
     //array to store structure values of all employees
     Employee employees[n];
@@ -22,7 +23,7 @@ int main()
 
         //Name
         printf("Name: ");
-        scanf("%[^\n]s",employees[i].name);
+        scanf("%s",employees[i].name);
 
         //ID
         printf("Id: ");
