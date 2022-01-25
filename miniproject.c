@@ -51,6 +51,4 @@ int main()
         printf("%.2lf \n",employees[i].salary);
  
         printf("\n");
-    }
- 
-    return 0;}
+    }return 0;}
