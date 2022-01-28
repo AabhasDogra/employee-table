@@ -9,7 +9,9 @@ typedef struct{
  
 int main()
 {
+  printf("        EMPLOYEE MANAGEMENT SYSTEM\n\n");
     //number of employees
+  printf("Enter no of employees to be added to the database:");
     int n;
  scanf("%d",&n);
 
